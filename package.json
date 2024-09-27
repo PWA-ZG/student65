@@ -1,0 +1,27 @@
+{
+  "name": "server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "./dist/server.js",
+  "scripts": {
+    "build": "tsc",
+    "start": "nodemon .",
+    "dev": "tsc -w",
+    "serve": "npm run build && npm run start"
+  },
+  "author": "miha53cevic",
+  "license": "MIT",
+  "dependencies": {
+    "@types/express": "^4.17.21",
+    "@types/multer": "^1.4.11",
+    "@types/web-push": "^3.6.3",
+    "express": "^4.18.2",
+    "multer": "^1.4.5-lts.1",
+    "nodemon": "^3.0.2",
+    "sqlite3": "^5.1.6",
+    "web-push": "^3.6.6"
+  },
+  "devDependencies": {
+    "typescript": "^5.3.3"
+  }
+}
